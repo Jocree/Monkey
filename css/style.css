@@ -1,0 +1,387 @@
+body {
+  background-image: url(../img/fundo-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+}
+
+.h{
+  background-attachment: fixed;  
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border-width: 10px;
+  border-style: solid;
+  border-color: #1c1c1c;
+  background-color: #1c1c1c;
+  border-radius: 0px;
+  margin-top: -2%;
+  margin-bottom: 0%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  display: block;
+  background-color: #00000093;
+}
+
+.container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section.module p {
+  margin-bottom: 40px;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+section.module.content {
+  padding: 40px 0;
+  border: 5%;
+  border-radius: 10px;
+  border-color: black;
+  background-color: rgba(0, 0, 0, 0.158);
+}
+
+section.module.parallax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+section.module.parallax:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 30%,
+    #000 130%
+  );
+}
+
+section.module.parallax-no {
+  background-image: url();
+  background-size: cover;
+}
+
+section.module.parallax-01 {
+  background-image: url(../img/sabe-definitivo.png);
+  background-size: cover;
+}
+
+h3 {
+  color: whitesmoke;
+  font-size: x-large;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+h4 {
+  color: white;
+  font-size: x-large;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+form {
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #ffffff42;
+  border-radius: 15px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 5%;
+}
+
+input {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: #1c2574e1;
+}
+
+.site-footer {
+  background-color: #1c2574e1;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #ffffff;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #ffffff;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.instagram:hover {
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  )
+}
+.social-icons a.youtube:hover {
+  background-color: #ff0000;
+  
+}
+
+.social-icons a.blaze:hover {
+  background-color: #000000;
+}
+
+.social-icons a.manual:hover {
+  background-color: #001aff;
+}
+
+
+
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+.pessoa {
+  background-image: url(../img/pessoa.png);
+}
+
+.col-sm-3.col-md-3,
+.row2,
+.txtbor {
+  border: 5%;
+  border-radius: 10px;
+  border-color: black;
+  background-color: rgba(0, 0, 0, 0.158);
+  margin-left: 5%;
+}
+
+.txtbor2 {
+  border: 10%;
+  border-radius: 10px;
+  border-color: #1b7dfd;
+  background-color: #093b7e;
+  margin-left: 5%;
+}
+
+.row2 {
+  margin-top: 10%;
+}
+
+button {
+  border-radius: 10px;
+}
+
+.ba {
+  color: #ece7d5;
+  background-color: #ece7d5;
+}
+
+.crr {
+  background-size: cover;
+  width: 100%;
+}
+
+.b05 {
+  background-image: url(https://lh3.googleusercontent.com/-Y0yqSifflkQ/T5os2wgl8iI/AAAAAAAAADA/l71UgEgtmow/w506-h750/FondoAzulDegradadoCentro.png);
+}
+
+.pee {
+  margin-top: -67.7%;
+  margin-left: 55.5%;
+  height: 28%;
+}
+
+.anto {
+  background-image: url(../img/anto.jpeg);
+}
+
+.joao {
+  background-image: url(../img/joao.jpeg);
+}
+
+.mato {
+  background-image: url(../img/mato.jpeg);
+}
+
+.pedro {
+  background-image: url(../img/pedro.jpeg);
+}
+
+.rob {
+  background-image: url(../img/roberto.jpeg);
+}
+
+.kira {
+  background-image: url(../img/kira.jpg);
+}
+
+.ibere {
+  background-image: url(../img/ibere.jpg);
+}
+
+.tesla{
+  background-image: url(../img/tesla.jpg);
+}
